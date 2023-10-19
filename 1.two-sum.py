@@ -9,8 +9,7 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        num_to_index = {}  # A dictionary to store the values and their indices
-
+        num_to_index = {} 
         for i, num in enumerate(nums):
             complement = target - num
 
