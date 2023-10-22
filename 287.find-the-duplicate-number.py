@@ -16,6 +16,7 @@ class Solution:
             if cnt[i] > 1:
                 return i
         return len(nums)
+
         
 # @lc code=end
 
